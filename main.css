@@ -1,0 +1,13 @@
+.first-block {
+	background-color: #2ecc71;
+	width: 500px;
+	height: 250px;
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+.large-font {
+	color: white;
+	font-family: Arial, sans-serif;
+
+}
