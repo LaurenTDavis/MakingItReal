@@ -9,8 +9,10 @@ a {
 
 /* First Section */
 .container {
+	position: relative;
 	width: 500px;
 	margin: auto;
+	background-color: white;
 }
 
 .first-block {
@@ -61,12 +63,12 @@ a {
 
 /* SideBar! */
 
-/*.sidebar {
+.sidebar {
 	background-color: #ecf0f1;
 	position: absolute;
 	top: 244px;
+	left: 100%;
 	width: 200px;
-		left: 100%;
 	margin-left: 20px;
 	padding: 10px;
 	border-bottom: 3px solid #444;
@@ -87,12 +89,33 @@ a {
 .side-list {
 	color: #666;
 }
-*/
+
+
+/* Main Content */
+
+.content {
+	padding: 20px;
+}
+
+.post {
+
+
+}
+
+.section {
+	margin: 30px 0;
+}
+
+/* Table */
+
+.table {
+	border-collapse: collapse;
+	width: 100%;
+}
 
 
 
-
-
+/* Comments Section */
 
 
 
