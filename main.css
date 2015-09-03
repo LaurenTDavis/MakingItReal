@@ -1,13 +1,105 @@
+body {
+	background-color: #7f8c8d;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* First Section */
+.container {
+	width: 500px;
+	margin: auto;
+}
+
 .first-block {
 	background-color: #2ecc71;
-	width: 500px;
-	height: 250px;
+	width: 100%;
+	height: 200px;
 	position: relative;
-	bottom: 0;
-	right: 0;
-}
-.large-font {
-	color: white;
-	font-family: Arial, sans-serif;
+	border-bottom: 5px solid #27ae60;
 
 }
+
+.text-header {
+	color: #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+	font-size: 24px;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+	overflow: hidden;
+	background: #2c3e50;
+}
+
+.navbar-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navbar-list li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar-links {
+	color: white;
+	font-size: 14px;
+
+}
+
+.move-right {
+	float: right;
+}
+
+/* SideBar! */
+
+/*.sidebar {
+	background-color: #ecf0f1;
+	position: absolute;
+	top: 244px;
+	width: 200px;
+		left: 100%;
+	margin-left: 20px;
+	padding: 10px;
+	border-bottom: 3px solid #444;
+
+}
+
+.side-title {
+	margin-left: 10px;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+.side-title li {
+	margin-bottom: 5px;
+}
+
+.side-list {
+	color: #666;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
