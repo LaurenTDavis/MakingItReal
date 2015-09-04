@@ -18,7 +18,15 @@ ol li {
 }
 
 fieldset {
-	border: 1px solid #bdc3c7;
+	border: 0;
+	border-top: 1px solid #bdc3c7;
+	margin: 5px;
+	padding: 10px;
+}
+
+textarea {
+	box-sizing: border-box;
+	width: 100%;
 }
 
 
@@ -83,7 +91,7 @@ fieldset {
 	position: absolute;
 	top: 244px;
 	left: 100%;
-	width: 200px;
+	width: 150px;
 	margin-left: 20px;
 	padding: 10px;
 	border-bottom: 3px solid #444;
@@ -148,20 +156,31 @@ fieldset {
 	border: 0;
 	padding: 5px 20px;
 	color: #ecf0f1;
-
 }
+
 
 .blue-button {
 	background-color: #3498db;
 }
 
 
-
 /* Comments Section */
-
-.comments {
+.comments-info {
+	padding: 5px;
 
 }
+.label {
+	width: 100px;
+	display: block;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+}
+.spacing {
+	width: 300px;
+	margin-bottom: 5px;
+}
+
 
 .red-button {
 	background-color: #c0392b;
@@ -170,7 +189,24 @@ fieldset {
 	
 }
 
+.mediaBlock {
+	padding: 10px;
+	clear: left;
+}
+.mediaObject {
+	float: left;
+	margin: 10px;
+}
 
+.mediaBody {
+	overflow: hidden;
+}
+
+.smaller {
+	font-size: 12px;
+	color: #ccc;
+
+}
 
 
 
